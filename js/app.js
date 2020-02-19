@@ -89,12 +89,16 @@ for (var index = 0; index < 4; index++)
     }
 var mythe = prompt('what is my fav game ?');
 var FavGame = ['Control', 'HorazonZerodawn', 'AssasinCreed', 'StarsWar'];
-for (var i = 0; i < FavGame.length; i++) {
+for (var i = 0; i < 7; i++) {
     if (mythe === FavGame[i]) {
         console.log('indeeed');
+        alert('gj')
+        score++;
+        break;
     }
     else {
         console.log('try again')
+        alert('try again')
     }
 
 }
