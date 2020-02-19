@@ -1,5 +1,6 @@
 'use strict'
 var clint = prompt("what is your name");
+var score = 0;
 switch (clint) {
     case 'Baraah':
         alert("you are the best");
@@ -18,7 +19,7 @@ var name = prompt("my nickname is otar, yes or no ?").toLowerCase();
 switch (name) {
     case 'yes':
         alert("GJ !");
-        console.log('GJ !');
+        score++;
         break;
     case 'no':
         alert("wrong ");
@@ -34,6 +35,7 @@ switch (game) {
     case 'no':
         alert("wow");
         console.log('wow');
+        score++;
         break;
 }
 var age = prompt("i am 20 ?").toLowerCase();
@@ -45,6 +47,7 @@ switch (age) {
     case 'no':
         alert("GoodJob");
         console.log('GoodJob');
+        score++;
         break;
 }
 var smartphone = prompt("i use samsung ?").toLowerCase();
@@ -52,6 +55,7 @@ switch (smartphone) {
     case 'yes':
         alert("indeed");
         console.log('indeed');
+        score++;
         break;
     case 'no':
         alert("wrong");
@@ -63,9 +67,35 @@ switch (age) {
     case 'yes':
         alert("yess");
         console.log('yess');
+        score++;
         break;
     case 'no':
         alert("wrongg");
         console.log('wrong');
         break;
 }
+var favnum = prompt("What is my fav number out of 7 ?");
+for (var index = 0; index < 4; index++)
+    if (Number(favnum) === 5) {
+        alert('goof job !');
+        score++;
+        break;
+    }
+    else if (Number(favnum > 5)) {
+        alert('too high');
+    }
+    else if (Number(favnum < 5)) {
+        alert('too low');
+    }
+var mythe = prompt('what is my fav game ?');
+var FavGame = ['Control', 'HorazonZerodawn', 'AssasinCreed', 'StarsWar'];
+for (var i = 0; i < FavGame.length; i++) {
+    if (mythe === FavGame[i]) {
+        console.log('indeeed');
+    }
+    else {
+        console.log('try again')
+    }
+
+}
+alert('your score ' + score + ' from 7');
