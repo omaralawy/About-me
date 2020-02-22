@@ -1,9 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
 header{text-align: -webkit-center;
-    background-color: burlywood;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid ;}
+    background-color: rgb(38, 84, 102);
+    margin: 2px;
+    padding: 5px;
+    border: 3px solid 
+    brown;}
+
     footer{background-color: coral; padding: 3px;border: 1px solid;}
     main{height: 300px;
     background-color:rgb(124, 35, 120);
     padding: 20px;}
+    body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 18px;
+    }
+    main {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 19px;
+        font-size: 20px;
+        word-spacing: 4px;
+    }
+    ul li {
+        display:inline-block;
+    }
